@@ -12,7 +12,7 @@
 		B25BEE4A1D6857D6007D0E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BEE481D6857D6007D0E1D /* Main.storyboard */; };
 		B25BEE4C1D6857D6007D0E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25BEE4B1D6857D6007D0E1D /* Assets.xcassets */; };
 		B25BEE4F1D6857D6007D0E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BEE4D1D6857D6007D0E1D /* LaunchScreen.storyboard */; };
-		B25BEE571D685BCE007D0E1D /* eioaz9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25BEE561D685BCE007D0E1D /* eioaz9.jpg */; };
+		B2E38E561D6B5252009405FB /* eioaz9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2E38E551D6B5252009405FB /* eioaz9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		B25BEE4B1D6857D6007D0E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25BEE4E1D6857D6007D0E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25BEE501D6857D6007D0E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B25BEE561D685BCE007D0E1D /* eioaz9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eioaz9.jpg; path = ../../../eioaz9.jpg; sourceTree = "<group>"; };
+		B2E38E551D6B5252009405FB /* eioaz9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eioaz9.jpg; path = ../eioaz9.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		B25BEE431D6857D6007D0E1D /* LoginNew */ = {
 			isa = PBXGroup;
 			children = (
-				B25BEE561D685BCE007D0E1D /* eioaz9.jpg */,
 				B25BEE441D6857D6007D0E1D /* AppDelegate.swift */,
+				B2E38E551D6B5252009405FB /* eioaz9.jpg */,
 				B25BEE461D6857D6007D0E1D /* ViewController.swift */,
 				B25BEE481D6857D6007D0E1D /* Main.storyboard */,
 				B25BEE4B1D6857D6007D0E1D /* Assets.xcassets */,
@@ -127,7 +127,7 @@
 			files = (
 				B25BEE4F1D6857D6007D0E1D /* LaunchScreen.storyboard in Resources */,
 				B25BEE4C1D6857D6007D0E1D /* Assets.xcassets in Resources */,
-				B25BEE571D685BCE007D0E1D /* eioaz9.jpg in Resources */,
+				B2E38E561D6B5252009405FB /* eioaz9.jpg in Resources */,
 				B25BEE4A1D6857D6007D0E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +292,7 @@
 				B25BEE551D6857D6007D0E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
